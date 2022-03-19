@@ -15,7 +15,7 @@ const WheatherApp = () => {
     }
     useEffect(() => {
       getLocation()
-    }, []);
+    });
     
 
     const getData = () => {
