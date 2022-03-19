@@ -33,7 +33,7 @@ const WheatherApp = () => {
 
     useEffect(() => {
       getData();
-    }, []);
+    });
 
   return (
     <div className='container'>
